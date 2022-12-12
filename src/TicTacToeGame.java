@@ -31,6 +31,7 @@ public class TicTacToeGame {
 		System.out.println("----------");
 		System.out.println(7 +" | "+ 8+" | "+9);
 		
+		//p1 = player1 / p2 = player2
 		String p1;
 		String p2;
 		
