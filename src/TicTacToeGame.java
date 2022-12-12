@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class TicTacToeGame {
 
 	/**
-	 * @param args
+	 * @param args : This class created to play Tic Tac Toe game
 	**/		 
 	public static void main(String[] args) {
 		
