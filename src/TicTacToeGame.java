@@ -367,30 +367,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 2) {
@@ -398,30 +398,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 3) {
@@ -429,30 +429,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 4) {
@@ -460,30 +460,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 5) {
@@ -491,30 +491,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 6) {
@@ -522,30 +522,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 7) {
@@ -553,30 +553,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 8) {
@@ -584,30 +584,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}
 			else if (player2Move == 9) {
@@ -615,30 +615,30 @@ public class TicTacToeGame {
 				//compare the symbols of p2
 				//horizontal
 				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//vertical
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				//x
 				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 1,You win!");
+					System.out.println("Player 2,You win!");
 				}
 			}	
 			
