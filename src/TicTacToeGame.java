@@ -37,6 +37,7 @@ public class TicTacToeGame {
 		
 		//Player 1 selection
 		System.out.println(" ");
+		System.out.println("Enter your symbol:");
 		System.out.print("Player 1: Enter Your Symbol : ");
 		Scanner playerSymbolOne = new Scanner(System.in);
 		String playerSymbol1 = playerSymbolOne.next();
