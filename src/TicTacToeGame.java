@@ -70,280 +70,235 @@ public class TicTacToeGame {
 			if (player1Move == 1) {
 				ticTacToeAr[0][0] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 2) {
 				ticTacToeAr[0][1] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 3) {
 				ticTacToeAr[0][2] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 4) {
 				ticTacToeAr[1][0] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 5) {
 				ticTacToeAr[1][1] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 6) {
 				ticTacToeAr[1][2] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 7) {
 				ticTacToeAr[2][0] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.print("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 8) {
 				ticTacToeAr[2][1] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 			else if (player1Move == 9) {
 				ticTacToeAr[2][2] = p1;
 				//compare the symbols of p1
-				//horizontal
-				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1) {
+				if (ticTacToeAr[0][0] == p1 && ticTacToeAr[0][1] == p1 && ticTacToeAr[0][2] == p1 ||
+						ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1 ||
+						ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1 ||
+						ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1 ||
+						ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p1 && ticTacToeAr[1][1] == p1 && ticTacToeAr[1][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p1 && ticTacToeAr[2][1] == p1 && ticTacToeAr[2][2] == p1) {
-					System.out.print("Player 1,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][0] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][1] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][2] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][2] == p1) {
-					System.out.println("Player 1,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p1 && ticTacToeAr[1][1] == p1 & ticTacToeAr[2][0] == p1) {
-					System.out.println("Player 1,You win!");
+					break;
 				}
 			}
 
@@ -365,280 +320,235 @@ public class TicTacToeGame {
 			if (player2Move == 1) {
 				ticTacToeAr[0][0] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 2) {
 				ticTacToeAr[0][1] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 3) {
 				ticTacToeAr[0][2] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 4) {
 				ticTacToeAr[1][0] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 5) {
 				ticTacToeAr[1][1] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 6) {
 				ticTacToeAr[1][2] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 7) {
 				ticTacToeAr[2][0] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 8) {
 				ticTacToeAr[2][1] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}
 			else if (player2Move == 9) {
 				ticTacToeAr[2][2] = p2;
 				//compare the symbols of p2
-				//horizontal
-				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2) {
+				if (ticTacToeAr[0][0] == p2 && ticTacToeAr[0][1] == p2 && ticTacToeAr[0][2] == p2 ||
+						ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2 ||
+						ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2 ||
+						ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2 ||
+						ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
+					
+					//Draw the Game shape
+					System.out.println("----------------------------------");
+					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
+					System.out.println("----------");
+					System.out.println(" "+ticTacToeAr[2][0] +" | "+  ticTacToeAr[2][1]+" | "+ticTacToeAr[2][2]);
+					
+					//Show wining message
+					System.out.println(" ");
 					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[1][0] == p2 && ticTacToeAr[1][1] == p2 && ticTacToeAr[1][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[2][0] == p2 && ticTacToeAr[2][1] == p2 && ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//vertical
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][0] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][1] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][1] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][2] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				//x
-				else if (ticTacToeAr[0][0] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][2] == p2) {
-					System.out.println("Player 2,You win!");
-				}
-				else if (ticTacToeAr[0][2] == p2 && ticTacToeAr[1][1] == p2 & ticTacToeAr[2][0] == p2) {
-					System.out.println("Player 2,You win!");
+					break;
 				}
 			}	
 			
