@@ -48,7 +48,6 @@ public class TicTacToeGame {
 		String playerSymbol2 = playerSymbolTwo.next();
 		p2 = playerSymbol2;
 		
-		
         //Loop to start the game until someone win
 		for (int a = 0; a< 9 ; a++) {
 			//Draw the Game shape
