@@ -54,6 +54,7 @@ public class TicTacToeGame {
 		for (int a = 0; a< 9 ; a++) {
 			//Draw the Game shape
 			System.out.println("----------------------------------");
+			System.out.println(" ");
 			System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 			System.out.println("----------");
 			System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -81,6 +82,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -107,6 +109,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -133,6 +136,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -159,6 +163,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -185,6 +190,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -211,6 +217,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -237,6 +244,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -263,6 +271,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -289,6 +298,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -304,6 +314,7 @@ public class TicTacToeGame {
 
 			//Draw the Game shape
 			System.out.println("----------------------------------");
+			System.out.println(" ");
 			System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 			System.out.println("----------");
 			System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -331,6 +342,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -357,6 +369,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -383,6 +396,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -409,6 +423,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -435,6 +450,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -461,6 +477,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -487,6 +504,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -513,6 +531,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
@@ -539,6 +558,7 @@ public class TicTacToeGame {
 					
 					//Draw the Game shape
 					System.out.println("----------------------------------");
+					System.out.println(" ");
 					System.out.println(" "+ticTacToeAr[0][0] +" | "+ ticTacToeAr[0][1]+" | "+ticTacToeAr[0][2]);
 					System.out.println("----------");
 					System.out.println(" "+ticTacToeAr[1][0] +" | "+ ticTacToeAr[1][1]+" | "+ticTacToeAr[1][2]);
