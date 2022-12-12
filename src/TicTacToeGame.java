@@ -31,7 +31,7 @@ public class TicTacToeGame {
 		System.out.println("----------");
 		System.out.println(7 +" | "+ 8+" | "+9);
 		
-		//p1 = player1 / p2 = player2
+		//p1 = player1 / p2 = player2 ==> to store the symbols
 		String p1;
 		String p2;
 		
@@ -92,8 +92,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 2) {
 				ticTacToeAr[0][1] = p1;
 				//compare the symbols of p1
@@ -119,8 +119,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 3) {
 				ticTacToeAr[0][2] = p1;
 				//compare the symbols of p1
@@ -146,8 +146,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 4) {
 				ticTacToeAr[1][0] = p1;
 				//compare the symbols of p1
@@ -173,8 +173,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 5) {
 				ticTacToeAr[1][1] = p1;
 				//compare the symbols of p1
@@ -200,8 +200,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 6) {
 				ticTacToeAr[1][2] = p1;
 				//compare the symbols of p1
@@ -227,8 +227,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 7) {
 				ticTacToeAr[2][0] = p1;
 				//compare the symbols of p1
@@ -254,8 +254,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 8) {
 				ticTacToeAr[2][1] = p1;
 				//compare the symbols of p1
@@ -281,8 +281,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
 			else if (player1Move == 9) {
 				ticTacToeAr[2][2] = p1;
 				//compare the symbols of p1
@@ -308,9 +308,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 1,You win!");
 					break;
+					}
 				}
-			}
-
 			//Draw the Game shape
 			System.out.println("----------------------------------");
 			System.out.println(" ");
@@ -325,7 +324,7 @@ public class TicTacToeGame {
 			System.out.print("Player 2, Make a move, Enter a Position: ");
 			Scanner player2MoveSc = new Scanner(System.in);
 			int player2Move = player2MoveSc.nextInt();
-			
+
 			//Add player2 symbol
 			if (player2Move == 1) {
 				ticTacToeAr[0][0] = p2;
@@ -352,8 +351,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 2) {
 				ticTacToeAr[0][1] = p2;
 				//compare the symbols of p2
@@ -379,8 +378,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 3) {
 				ticTacToeAr[0][2] = p2;
 				//compare the symbols of p2
@@ -406,8 +405,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 4) {
 				ticTacToeAr[1][0] = p2;
 				//compare the symbols of p2
@@ -433,8 +432,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 5) {
 				ticTacToeAr[1][1] = p2;
 				//compare the symbols of p2
@@ -460,8 +459,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 6) {
 				ticTacToeAr[1][2] = p2;
 				//compare the symbols of p2
@@ -487,8 +486,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 7) {
 				ticTacToeAr[2][0] = p2;
 				//compare the symbols of p2
@@ -514,8 +513,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 8) {
 				ticTacToeAr[2][1] = p2;
 				//compare the symbols of p2
@@ -541,8 +540,8 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}
 			else if (player2Move == 9) {
 				ticTacToeAr[2][2] = p2;
 				//compare the symbols of p2
@@ -568,13 +567,9 @@ public class TicTacToeGame {
 					System.out.println(" ");
 					System.out.println("Player 2,You win!");
 					break;
+					}
 				}
-			}	
-			
-			
-			
-		}
-	}
+			}
 		
-
-}
+		}//END of the method
+	}
