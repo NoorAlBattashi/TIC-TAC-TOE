@@ -1,0 +1,4 @@
+{"playersSymbol":[["player1Symbol","a"],["player2Symbol","d"]]}
+{"playersturn":[["PlayerOneTurn","true"],["PlayerTwoTurn","false"]]}
+{"validTurnsCounter":[["validTurnsCounter","4"]]}
+{"ticTacToeArr":[["a","d","3"],["a","d","6"],["7","8","9"]]}
