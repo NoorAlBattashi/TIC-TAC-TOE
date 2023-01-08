@@ -1,0 +1,7 @@
+{"ticTacToeArr":[["q","w","q"],["w","5","6"],["7","q","w"]]}
+{"player1Symbol":"q"}
+{"player2Symbol":"w"}
+{"PlayerOneTurn":true}
+{"PlayerTwoTurn":false}
+{"validTurnsCounter":6}
+{"ticTacToeArr":[["q","w","q"],["w","5","6"],["q","w","9"]]}
